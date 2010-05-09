@@ -1,0 +1,3 @@
+- handle lost connections
+- lock expiration using the time stored as the value
+- allow multiple client to make it high avaibility

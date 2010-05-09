@@ -1,0 +1,26 @@
+---
+abstract: 'A very simple lock mechanism based on Tokyo Tyrant'
+author:
+  - 'Antoine Imbert <antoine.imbert@gmail.com>'
+build_requires:
+  Test::More: 0
+  Time::HiRes: 0
+  TokyoTyrant: 0
+  TokyoTyrantx::Instance: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: TokyoTyrantx-Lock
+provides:
+  TokyoTyrantx::Lock:
+    file: lib/TokyoTyrantx/Lock.pm
+    version: 0.01
+  TokyoTyrantx::Lock::Client:
+    file: lib/TokyoTyrantx/Lock/Client.pm
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
